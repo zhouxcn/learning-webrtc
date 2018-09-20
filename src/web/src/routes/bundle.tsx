@@ -1,5 +1,5 @@
 import * as React       from 'react';
-import { resetPage }    from './store';
+import { resetPage }    from '../store';
 
 interface BundleProps {
     load: ()                => Promise<any>;

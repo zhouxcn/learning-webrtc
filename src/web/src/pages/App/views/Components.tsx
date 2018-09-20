@@ -1,5 +1,5 @@
 import * as React   from 'react';
-import Bundle       from '../../../bundle';    // 实现按需加载模块
+import Bundle       from '../../../routes/bundle';    // 实现按需加载模块
 
 const load = (componentName: string) => () => {
     switch (componentName) {
