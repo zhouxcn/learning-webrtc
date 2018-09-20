@@ -7,7 +7,7 @@ import {
 
 export const Routes = () => (
     <div className="content">
-        <Route exact={true} path="/home" component={HomePage} />
+        <Route exact={true} path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
     </div>
 );
